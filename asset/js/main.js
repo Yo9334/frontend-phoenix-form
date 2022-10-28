@@ -29,7 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
       };
 
       //2 Envoyer à un serveur les informations du formulaire
-      const response = await fetch("http://localhost:4000/send-email", config);
+      const response = await fetch(
+        "https://site--backend-form--tlbdn9cmqsf2.code.run/send-email",
+        config
+      );
       console.log(response.data);
       alert("Merci de votre réponse !");
     });
