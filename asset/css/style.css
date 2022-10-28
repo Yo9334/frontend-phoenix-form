@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
