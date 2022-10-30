@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("submit", async (event) => {
       //Vient empêcher que le formulaire refresh la page
       event.preventDefault();
-      console.log("Soumission du Formulaire");
+      // console.log("Soumission du Formulaire");
 
       //1 Récupérer les différentes éléments du formulaire
       //   console.log(document.getElementById("firstname").value);
@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         firstname: document.getElementById("firstname").value,
         lastname: document.getElementById("lastname").value,
         email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
         message: document.getElementById("message").value,
       };
 
